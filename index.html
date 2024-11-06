@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência Travel More</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Trochut:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-tittle">Agência Travel More</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-nos" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre nós
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#viagens" class="nav-link">
+                            <i class="bi bi-airplane me-1"></i>
+                            Tipos de viagens
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#destinos" class="nav-link">
+                            <i class="bi bi-globe-americas me-1"></i>
+                            Destinos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-nos">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/slide1.jpg" class="d-block w-100" alt="Casal de turistas em viagem">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide2.jpg" class="d-block w-100" alt="Mesa com planejamento de viagem">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide3.jpg" class="d-block w-100" alt="Sala de atendimento personalizado">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/airport-2373727_1920.jpg" class="d-block w-100 rounded" alt="Mulher olhando telão de voos">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-tittle">Sobre <span class="text-colored">nós</span></h2>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima molestiae laborum laboriosam quia animi, natus a corporis sequi molestias necessitatibus illum dolore optio rem numquam neque quaerat! Doloremque, ab quasi.
+                            </p>
+                            <h3 class="section-tittle">Por quê escolher a  <span class="text-colored">Travel More?</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam vel hic tempora pariatur earum reiciendis enim praesentium quisquam blanditiis, asperiores optio facilis et recusandae corrupti eum cumque fugit beatae quidem.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="viagens" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center">Tipos de <span class="text-colored">viagens</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/eventos/galera.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-tittle text-colored fs-4 mt-3">
+                            <i class="bi bi-emoji-sunglasses"></i>
+                            De galera
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique iure cum officia molestias qui, nostrum adipisci itaque asperiores, quo corrupti nulla laborum deleniti dolorem expedita possimus ut molestiae quaerat totam.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/familia.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-tittle text-colored fs-4 mt-3">
+                            <i class="bi bi-luggage"></i>
+                            Em família
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique iure cum officia molestias qui, nostrum adipisci itaque asperiores, quo corrupti nulla laborum deleniti dolorem expedita possimus ut molestiae quaerat totam.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/a dois.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-tittle text-colored fs-4 mt-3">
+                            <i class="bi bi-calendar2-heart"></i>
+                            Um momento a dois
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique iure cum officia molestias qui, nostrum adipisci itaque asperiores, quo corrupti nulla laborum deleniti dolorem expedita possimus ut molestiae quaerat totam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="destinos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center mb-5">Escolha seu <span class="text-colored">destino</span></h2>
+                </div>
+                <div>
+                    <div class="row">
+                        <aside class="col-md-2">
+                            <nav class="nav nav-pills flex-colum nav-destinos">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#america" class="fw-bold text-start nav-link text-colored active">América</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#africa" class="fw-bold text-start nav-link text-colored">África</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#asia" class="fw-bold text-start nav-link text-colored">Ásia</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#europa" class="fw-bold text-start nav-link text-colored">Europa</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#oceania" class="fw-bold text-start nav-link text-colored">Oceania</button>
+                        </aside>
+                        <div class="col-md-10">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="america">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/destinos/america/bariloche.jpeg" alt="Bariloche" />
+                                            <h5 class="text-colored fw-bold mt-2">Bariloche - Argentina</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/destinos/america/punta cana.jpg" alt="Punta Cana" />
+                                            <h5 class="text-colored fw-bold mt-2">Punta Cana - República Dominicana</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/destinos/america/santiago.jpg" alt="Santiago" />
+                                            <h5 class="text-colored fw-bold mt-2">Santiago - Chile</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/destinos/america/toronto.jpg" alt="Toronto" />
+                                            <h5 class="text-colored fw-bold mt-2">Toronto - Canadá</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/destinos/america/disney.jpg" alt="Orlando" />
+                                            <h5 class="text-colored fw-bold mt-2">Orlando - EUA</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/destinos/america/cancun.jpg" alt="Cancun" />
+                                            <h5 class="text-colored fw-bold mt-2">Cancún - México</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="africa">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/destinos/africa/maldivas.jpg" alt="Maldivas" />
+                                            <h5 class="text-colored fw-bold mt-2">Ilhas Maldivas</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/destinos/africa/africa.jpg" alt="Safari" />
+                                            <h5 class="text-colored fw-bold mt-2">África do Sul</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="asia">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/destinos/asia/tokio.jpeg" alt="Nome da entrada" />
+                                            <h5 class="text-colored fw-bold mt-2">Tóquio - Japão</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/destinos/asia/seul.jpg" alt="Nome da entrada" />
+                                            <h5 class="text-colored fw-bold mt-2">Seul - Coréia do Sul</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/destinos/asia/phuket.jpg" alt="Nome da entrada" />
+                                            <h5 class="text-colored fw-bold mt-2">Phuket - Tailândia</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/destinos/asia/singapura.jpg" alt="Nome da entrada" />
+                                            <h5 class="text-colored fw-bold mt-2">Singapura</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="europa">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/destinos/europa/paris.jpg" alt="Paris" />
+                                            <h5 class="text-colored fw-bold mt-2">Paris - França</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/destinos/europa/roma.jpg" alt="Roma" />
+                                            <h5 class="text-colored fw-bold mt-2">Roma - Itália</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/destinos/europa/veneza.jpg" alt="Veneza" />
+                                            <h5 class="text-colored fw-bold mt-2">Veneza - Itália</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/destinos/europa/lisboa.jpg" alt="Lisboa" />
+                                            <h5 class="text-colored fw-bold mt-2">Lisboa - Portugal</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/destinos/europa/londres.jpg" alt="Londres" />
+                                            <h5 class="text-colored fw-bold mt-2">Londres - Reino Unido</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/destinos/europa/amsterda.jpg" alt="Amsterdã" />
+                                            <h5 class="text-colored fw-bold mt-2">Amsterdã - Holanda</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="oceania">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/destinos/oceania/sydney.jpg" alt="Sydney" />
+                                            <h5 class="text-colored fw-bold mt-2">Sydney - Austrália</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">  
+                        <div class="row">
+                            <h3 class="section-tittle fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-tittle fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo, n°145, Bairro Booststrap - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#telefone').mask('(00) 00000-0000' , {
+                placeholder: '(xx)xxxxx-xxxx'
+            })
+            $('form').validate ({
+                rules: {
+                    nome: {
+                        required: true
+                    },
+                    email: {
+                        required: true 
+                    },
+                    telefone: {
+                        required: true
+                    }
+                }
+            })
+        })
+    </script>
+</body>
+</html>
